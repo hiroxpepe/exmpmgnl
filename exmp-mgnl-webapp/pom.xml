@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>org.examproject</groupId>
+    <artifactId>exmp-mgnl-webapp</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>exmp-mgnl-webapp</name>
+    
+    <properties>
+        <exmp.version>0.1.0-SNAPSHOT</exmp.version>
+        <blossom.version>2.0</blossom.version>
+        <magnolia.version>4.5.2</magnolia.version>
+        <spring.version>3.1.1.RELEASE</spring.version>
+        <jackson.version>1.8.2</jackson.version>
+        <hibernate.version>3.6.0.Final</hibernate.version>
+        <tiles.version>2.1.4</tiles.version>
+        <slf4j.version>1.6.1</slf4j.version>
+        <java.version>1.6</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <dependencies>
+        <!--//////////////////////////////////////////////////////////////////////////-->
+        <!-- USER LIB -->
+       
+        <!-- exmp-mgnl-blossom -->
+        <dependency>
+            <groupId>org.examproject</groupId>
+            <artifactId>exmp-mgnl-blossom</artifactId>
+            <version>${exmp.version}</version>
+        </dependency>
+        
+        <!--//////////////////////////////////////////////////////////////////////////-->
+        <!-- OSS LIB -->
+        
+        <!-- Blossom -->
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-blossom</artifactId>
+            <version>${blossom.version}</version>
+        </dependency>
+        
+        <!-- Magnolia -->
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-rendering</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-templating</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-templating-editor</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-templating-jsp</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-templating-compatibility-taglib-cms</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-core</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-admininterface</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-cache</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-exchange-simple</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-gui</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-jaas</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-fckeditor</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-mail</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia</groupId>
+            <artifactId>magnolia-module-store-client</artifactId>
+            <version>${magnolia.version}</version>
+        </dependency>
+    
+        <!-- Openutils -->
+        <dependency>
+            <groupId>net.sourceforge.openutils</groupId>
+            <artifactId>openutils-log4j</artifactId>
+            <version>2.0.5</version>
+        </dependency>
+        
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- Jackson -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <!-- Hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+        
+        <!-- HSQLDB -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+        
+        <!-- PostgreSQL -->
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>8.4-702.jdbc4</version>
+        </dependency>
+
+        <!-- Servlet -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        
+        <!-- Tiles -->
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-jsp</artifactId>
+            <version>${tiles.version}</version>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+            <scope>runtime</scope>
+        </dependency>
+        
+    </dependencies>
+
+    <repositories>
+        <!-- for Magnolia -->
+        <repository>
+            <id>magnolia.public</id>
+            <url>http://nexus.magnolia-cms.com/content/groups/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <configuration>
+                    <contextPath>/</contextPath>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
