@@ -11,7 +11,7 @@ At your command line.
     > mvn install
     > java -jar target/dependency/jetty-runner.jar exmp-mgnl-webapp/target/*.war
 
-You can access to http://localhost:8080/ on your web browser.
+You can access to http://localhost:8080/ on your web browser.  
 To stop the application hit ctrl + c
 
 ### License
