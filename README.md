@@ -1,7 +1,7 @@
 # exmpmgnl (c) by examproject
 
 ### What's this?
-a cms based project using magnolia cms.
+A cms based project using [Magnolia CMS](http://www.magnolia-cms.com/magnolia-cms.html).
 
 ### How to run at the local?
 You will need to get [Apache Maven](http://maven.apache.org/).
@@ -19,7 +19,7 @@ To stop the application hit ctrl + c
 ### How to run on the Heroku?
 
 You will need to get [Git](http://git-scm.com/), of course.  
-You will need to create a application for [Heroku](http://www.heroku.com/), and must need to get the heroku tools, used RubyGems.  
+You will need to create a application for [Heroku](http://www.heroku.com/), and must need to get the heroku tools, used [RubyGems](http://rubygems.org/).  
 
 To push the application for Heroku at your command line.
 
