@@ -16,12 +16,8 @@ To stop the application hit ctrl + c
 
 ### How to run on the Heroku?
 
-You will need to get Git, of course.
-(http://git-scm.com/)
-
-You will need to create a application for Heroku, and must need to get the heroku tools, used RubyGems.
-(http://www.heroku.com/)
-
+You will need to get [Git](http://git-scm.com/), of course.  
+You will need to create a application for [Heroku](http://www.heroku.com/), and must need to get the heroku tools, used RubyGems.  
 To push the application on Heroku.
 
     > cd { path to this README.md directory. }
