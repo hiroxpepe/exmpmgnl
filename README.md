@@ -1,10 +1,12 @@
 # exmpmgnl (c) by examproject
 
-### What is this?
+### What's this?
 a cms based project using magnolia cms.
 
 ### How to run at the local?
-At your command line.
+You will need to get [Apache Maven](http://maven.apache.org/).
+
+To run the application at your command line.
 
     > cd { path to this README.md directory. }
     > mvn compile
@@ -18,7 +20,8 @@ To stop the application hit ctrl + c
 
 You will need to get [Git](http://git-scm.com/), of course.  
 You will need to create a application for [Heroku](http://www.heroku.com/), and must need to get the heroku tools, used RubyGems.  
-To push the application on Heroku.
+
+To push the application for Heroku at your command line.
 
     > cd { path to this README.md directory. }
     > heroku login
