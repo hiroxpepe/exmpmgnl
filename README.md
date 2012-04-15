@@ -1,4 +1,4 @@
-# exmpmgnl (c) by examproject.
+# exmpmgnl (c) by examproject
 
 ### What is this?
 a cms based project using magnolia cms.
@@ -13,6 +13,20 @@ At your command line.
 
 You can access to http://localhost:8080/ on your web browser.  
 To stop the application hit ctrl + c
+
+### How to run on the Heroku?
+
+You will need to get Git, of course.
+(http://git-scm.com/)
+
+You will need to create a application for Heroku, and must need to get the heroku tools, used RubyGems.
+(http://www.heroku.com/)
+
+To push the application on Heroku.
+
+    > cd { path to this README.md directory. }
+    > heroku login
+    > git push git@heroku.com:your-app-name.git
 
 ### License
 The examproject is released under version 2.0 of the
