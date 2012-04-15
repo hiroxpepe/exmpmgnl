@@ -31,7 +31,7 @@ To push the application for Heroku at your command line.
     > git push git@heroku.com:your-app-name.git
 
 ***
-### This project is hosted on GitHub.
+### Hosted on GitHub.
 [hiroxpepe/exmpmgnl](https://github.com/hiroxpepe/exmpmgnl)
 
 ***
