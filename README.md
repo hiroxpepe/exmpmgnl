@@ -1,20 +1,17 @@
-# exmpmgnl
+# exmpmgnl (c) by examproject.
 
-    > cd {path to this README directory!}
+## What is this?
+a cms based project using magnolia cms.
+
+## How to run at the local?
+At your command line.
+    > cd { path to this README.md directory. }
     > mvn compile
     > mvn install
     > java -jar target/dependency/jetty-runner.jar exmp-mgnl-webapp/target/*.war
+You can access to http://localhost:8080/ on your web browser.
+To stop the application hit ctrl + c
 
-***
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-***
+## License
+The examproject is released under version 2.0 of the
+[Apache License](http://www.apache.org/licenses/LICENSE-2.0).
