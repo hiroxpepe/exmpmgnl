@@ -44,6 +44,9 @@ public class SideBarHeaderItemComponent {
         SideBarHeaderItemComponent.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @RequestMapping("/sideBarHeaderItem")
     public String render(
         ModelMap model,

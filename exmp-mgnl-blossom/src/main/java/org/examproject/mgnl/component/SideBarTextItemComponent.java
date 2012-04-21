@@ -44,6 +44,9 @@ public class SideBarTextItemComponent {
         SideBarTextItemComponent.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @RequestMapping("/sideBarTextItem")
     public String render(
         ModelMap model,

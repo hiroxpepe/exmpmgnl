@@ -24,6 +24,9 @@ public class EntryUtils {
     
     private static Random random = new Random();
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     public static String createCode() {
         int intCode = random.nextInt(999999999);
         String strCode = String.valueOf(intCode);

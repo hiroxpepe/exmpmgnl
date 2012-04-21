@@ -44,6 +44,9 @@ public class SideBarLinkItemComponent {
         SideBarLinkItemComponent.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @RequestMapping("/sideBarLinkItem")
     public String render(
         ModelMap model,

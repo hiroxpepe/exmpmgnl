@@ -44,6 +44,9 @@ public class MenuLinkItemComponent {
         MenuLinkItemComponent.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @RequestMapping("/menuLinkItem")
     public String render(
         ModelMap model,

@@ -47,6 +47,9 @@ public class TextEntryComponent {
         TextEntryComponent.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @RequestMapping("/textEntry")
     public String render(
         ModelMap model,

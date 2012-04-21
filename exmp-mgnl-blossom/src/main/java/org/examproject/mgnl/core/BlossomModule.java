@@ -30,6 +30,9 @@ public class BlossomModule extends BlossomModuleSupport implements ModuleLifecyc
         BlossomModule.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @Override
     public void start(ModuleLifecycleContext moduleLifecycleContext) {
         LOG.info(this.getClass().getSimpleName() + " is starting");

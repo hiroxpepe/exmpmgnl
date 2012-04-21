@@ -44,6 +44,9 @@ public class EntryLinkItemComponent {
         EntryLinkItemComponent.class
     );
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     @RequestMapping("/entryLinkItem")
     public String render(
         ModelMap model,

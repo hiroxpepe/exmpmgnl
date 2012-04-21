@@ -30,6 +30,9 @@ public class SampleURIMapper {
     @Inject
     private final ApplicationContext context = null;
     
+    ///////////////////////////////////////////////////////////////////////////
+    // public methods
+    
     public String about(
         String uri,
         HttpServletRequest request
